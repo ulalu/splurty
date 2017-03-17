@@ -8,7 +8,10 @@ class QuotesController < ApplicationController
     end
     
     def create
-        Quote.create(quote_params)
+        @quote = Quote.create(quote_params)
+        if @quote.invalid?
+            flash[:error]= 'The entry you made was either too short or too long to be Alternative.'
+        end   
         redirect_to root_path
     end
     
