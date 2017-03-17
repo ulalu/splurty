@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 .clear {
     clear:both;
@@ -17,6 +19,7 @@
     text-align: center;
     color: #FFF;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
     line-height: 25px;
     cursor: pointer;
     transform:rotate(11deg);
@@ -38,6 +41,8 @@
     color: black;
     font-size: 25px;
     border-bottom: 1px solid #f84342;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 } 
 
 header {
@@ -46,4 +51,12 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
 }
