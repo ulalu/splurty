@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="col-4 slogan">
-          For those times when traditional facts just don't fit your narrative.
+          When regular facts don't fit your narrative.
         </div>
         <div class="col-5 links">
           <%= link_to 'Contribute', '#' %>
@@ -30,7 +30,22 @@
 <hr />
 
     <br class="clear" />
-    <%= yield %>
     
+    <div class="container"></div>
+    <%= yield %>
+    </div>
+    
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6"> 
+            <%= link_to "Get more Alternative Facts!", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Coded by Ursula MV with all due respect for the 45th president of the United States of America
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
