@@ -28,9 +28,10 @@
 }
 
 .slogan {
-    font-family: Impact, "Franklin Gothic Bold", "Helvetica Inserat", "Arial Black", sans-serif;
-    font-style: italic;
-    padding-top: 35px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    text-decoration: italic;
 }
 
 .links {
@@ -44,6 +45,11 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 } 
+
+.links a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #f84342;
+}
 
 header {
     border-top: 9px solid #f84342;
@@ -68,7 +74,7 @@ h2 {
 }
 
 .footer-blurb {
-    font-family: Impact, "Franklin Gothic Bold", "Helvetica Inserat", "Arial Black", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     text-align: right;
     font-size: 10px;
@@ -79,5 +85,27 @@ h2 {
 }
 
 .about {
-     font-family: Impact, "Franklin Gothic Bold", "Helvetica Inserat", "Arial Black", sans-serif;
+     font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 span {
+    color: #f84342;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+::selection {
+  background-color: #f84342;
 }
