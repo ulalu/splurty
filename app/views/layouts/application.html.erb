@@ -42,8 +42,8 @@
             </button>
             <h4 class="modal-title" id="myModalLabel">Submit your Alternative!</h4>
           </div>
-          <div class="modal-body">
-            <%= simple_form_for Quote.new do |f| %>
+          <%= simple_form_for Quote.new do |f| %>
+            <div class="modal-body">
               <%= f.input :saying, label: "Enter your quote:", placeholder: "And it was huge!" %>
               <br />
               <%= f.input :author, label: "Tell us who said it:", placeholder: "Donald Trump" %>
@@ -53,7 +53,7 @@
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             <%= f.submit 'Create', class: 'btn btn-outline-danger' %>
           </div>
-            <% end %>
+          <% end %>
         </div>
       </div>
     </div>
