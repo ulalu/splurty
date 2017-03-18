@@ -32,10 +32,12 @@
     font-family: 'Montserrat', sans-serif;
     padding-top: 30px;
     text-decoration: italic;
+
 }
 
 .links {
     padding-top: 35px;
+    text-align: center;
 }
 
 .links a {
@@ -44,6 +46,7 @@
     border-bottom: 1px solid #f84342;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    
 } 
 
 .links a:hover {
@@ -61,6 +64,7 @@ hr {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+
 }
 
 h2 {
@@ -108,4 +112,14 @@ h2 span {
 
 ::selection {
   background-color: #f84342;
+}
+
+a {
+    color: #f84342;
+}
+
+a:hover{
+    color: #f84342;
+    border-bottom: 1px solid #f84342;
+    text-decoration: none;
 }
