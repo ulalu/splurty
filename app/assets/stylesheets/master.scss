@@ -1,6 +1,9 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+@-ms-viewport{
+  width: device-width;
+}
 
 .clear {
     clear:both;
